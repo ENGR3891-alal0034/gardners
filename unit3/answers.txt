@@ -1,0 +1,82 @@
+0:252.0.0.0
+1:255.255.224.0
+2:255.255.255.254
+3:255.240.0.0
+4:255.248.0.0
+5:255.224.0.0
+6:255.255.255.224
+7:252.0.0.0
+8:192.0.0.0
+9:255.255.255.0
+10:255.0.0.0
+11:255.248.0.0
+12:255.255.255.192
+13:224.0.0.0
+14:255.255.255.254
+15:255.255.255.192
+16:255.255.192.0
+17:255.255.254.0
+18:255.255.255.0
+19:255.255.255.192
+20:255.255.255.248
+21:255.255.254.0
+22:255.128.0.0
+23:255.255.240.0
+24:255.255.192.0
+25:252.0.0.0
+26:255.255.240.0
+27:255.255.128.0
+28:192.0.0.0
+29:128.0.0.0
+30:255.255.255.248
+31:254.0.0.0
+32:255.128.0.0
+33:128.0.0.0
+34:128.0.0.0
+35:254.0.0.0
+36:128.0.0.0
+37:255.255.254.0
+38:255.255.255.240
+39:255.255.252.0
+40:88.11.215.0/24
+41:56.64.0.0/10
+42:106.35.0.0/16
+43:29.78.212.32/27
+44:44.216.0.0/15
+45:122.109.128.0/20
+46:84.34.137.0/24
+47:56.67.127.208/28
+48:50.255.249.0/26
+49:64.0.0.0/3
+50:61.194.64.192/26
+51:121.161.222.128/26
+52:18.128.0.0/9
+53:80.0.0.0/6
+54:79.78.240.0/28
+55:100.155.176.0/20
+56:57.56.101.0/24
+57:0.0.0.0/1
+58:71.57.140.128/25
+59:21.181.175.64/27
+60:ip address add 13.52.182.168/25 dev eth0
+61:ifconfig eth0 47.48.93.239;ifconfig eth0 netmask 255.255.254.0;ifconfig eth0 broadcast 47.48.93.255; ifconfig eth0 mtu 3997
+62:ifconfig eth0 95.94.127.208; ifconfig eth0 netmask 255.0.0.0; ifconfig eth0 broadcast 95.255.255.255
+63:ifconfig eth0 84.10.71.28; ifconfig eth0 netmask 255.255.255.224; ifconfig eth0 mtu 2649
+64:ifconfig eth0 59.15.211.121; ifconfig eth0 netmask 224.0.0.0;
+65:ifconfig eth0 111.109.217.172;ifconfig eth0 netmask 255.255.192.0; ifconfig eth0 tx 3932
+66:ip address add 74.42.195.21/28 dev eth0
+67:ifconfig eth0 112.85.165.245;ifconfig eth0 netmask 255.224.0.0; ifconfig eth0 tx 4029
+68:ifconfig eth0 95.53.52.164;ifconfig eth0 netmask 255.255.255.224; ifconfig eth0 tx 1318
+69:ifconfig eth0 31.191.232.224; ifconfig eth0 netmask 255.255.255.128
+70:ifconfig eth0 28.160.197.250;ifconfig eth0 netmask 255.224.0.0;ifconfig eth0 mtu 3225
+71:ifconfig eth0 120.223.106.85;ifconfig eth0 netmask 192.0.0.0
+72:ip address add 61.209.80.148/19 dev eth0;ip link set dev eth0 down;ip link set dev arp off
+73:ip address add 86.67.141.21/9 dev eth0;ip link set dev eth0 txqueuelen 3944
+74:ifconfig eth0 117.224.133.138 netmask 255.128.0.0 mtu 1916 -arp
+75:ifconfig eth0 14.62.71.168 netmask 240.0.0.0 mtu 4399 -arp
+76:ifconfig eth0 125.255.157.9 netmask 192.0.0.0 down
+77:ip address add 89.123.77.132/31 dev eth0; ip link set dev eth0 down
+78:ip address add 101.150.140.28/12 dev eth0; ip link set dev eth0 down; ip link set dev eth0 promisc on
+79:ip address add 35.15.133.108/27 dev eth0; ip link set dev eth0 down; ip link set dev eth0 arp on; ip link set dev eth0 promisc on
+
+
