@@ -1,0 +1,47 @@
+auto wealth0
+iface wealth0 inet static
+    mtu 7813
+    hwaddress E9:E2:5E:53:60:AA
+
+auto castle1
+iface castle1 inet static
+    mtu 2606
+    hwaddress D0:85:FA:54:D8:35
+
+auto wealth2
+iface wealth2 inet static
+    mtu 4908
+    hwaddress 66:82:64:98:D9:A8
+
+auto moths3
+iface moths3 inet static
+    mtu 6133
+    hwaddress 65:70:5A:8A:3F:62
+
+auto wealth4
+iface wealth4 inet static
+    mtu 7029
+    hwaddress 44:DE:7C:A5:89:4E
+
+auto wlan0
+iface wlan0 inet static
+    address 104.78.237.89/19
+
+auto eth1
+iface eth1 inet DHCP inherits moths3
+
+auto eth2
+iface eth2 inet DHCP
+
+auto eth3
+iface eth3 inet DHCP inherits wealth0
+
+auto ftdi4
+iface ftdi4 inet DHCP inherits wealth4
+
+auto ftdi5
+iface fti5 inet DHCP inherits wealth0
+
+auto ftdi6
+iface ftdi6 inet static
+   address 103.167.11.105/15
